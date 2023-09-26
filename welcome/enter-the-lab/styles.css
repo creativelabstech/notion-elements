@@ -1,0 +1,25 @@
+/* styles.css */
+/* Define the button style */
+
+body {
+    background-color: black;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    color: black; /* Green text color */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Transition on hover */
+}
+
+/* Define the hover effect */
+.rounded-button:hover {
+    background-color: #588157; /* Green background color on hover */
+    color: white; /* White text color on hover */
+}
